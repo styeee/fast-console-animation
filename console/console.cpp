@@ -2,7 +2,7 @@
 using namespace std;
 #include <windows.h>
 
-void SetWindowSize(short w,short h)
+inline void SetWindowSize(short w,short h)
 {
 	w--;h--;
 	HANDLE handle=GetStdHandle(STD_OUTPUT_HANDLE);
